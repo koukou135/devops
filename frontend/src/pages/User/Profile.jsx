@@ -88,7 +88,7 @@ const Profile = () => {
               <label className="block text-white mb-2">Confirm Password</label>
               <input
                 type="password"
-                placeholder="Confirm password"
+                placeholder="Confirmer password"
                 className="form-input p-4 rounded-sm w-full"
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
